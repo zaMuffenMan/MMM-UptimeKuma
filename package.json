@@ -1,0 +1,16 @@
+{
+  "name": "MMM-UptimeKuma",
+  "version": "1.0.0",
+  "description": "MagicMirror module for displaying Uptime Kuma services",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaMuffenMan/MMM-UptimeKuma.git"
+  },
+  "main": "MMM-UptimeKuma.js",
+  "scripts": {},
+  "author": "Mark Nuns",
+  "license": "MIT",
+  "dependencies": {
+    "install": "^0.12.2"
+  }
+}
