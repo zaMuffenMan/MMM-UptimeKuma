@@ -49,7 +49,7 @@ Module.register('MMM-UptimeKuma', {
     return wrapper;
     },
 
-    socketNotificationReceived: function (notification, payload) {
+    sendSocketNotification: function (notification, payload) {
         var self = this;
 
         switch (notification) {
@@ -66,7 +66,7 @@ Module.register('MMM-UptimeKuma', {
     },
 
     handleGetNotification: function (payload) {
-        getServices(payload);
+        this.getServices(payload);
     },
 
     // Get data from the services
