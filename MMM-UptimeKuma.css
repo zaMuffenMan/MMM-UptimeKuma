@@ -1,7 +1,10 @@
-.MMM-UptimeKuma .service-label {
+.MMM-UptimeKuma .service-img {
     margin: 0;
     padding-right: 10px;
-    padding-bottom: 5px;
     position: relative;
     text-align: left
+}
+
+.MMM-UptimeKuma .service-container {px;
+    padding-bottom: 5px;
 }

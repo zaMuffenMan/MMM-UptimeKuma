@@ -33,16 +33,18 @@ Module.register('MMM-UptimeKuma', {
             var serviceContainer = document.createElement("div");
             serviceContainer.classList.add("service-container");
 
+            var iconContainer = document.createElement("img");
+            labelContainer.classList.add("service-img");
+            iconContainer.src = service.data;
+
+            serviceContainer.appendChild(iconContainer);
+
             var labelContainer = document.createElement("span");
             labelContainer.classList.add("service-label");
             labelContainer.innerHTML = service.label;
 
             serviceContainer.appendChild(labelContainer);
 
-            var iconContainer = document.createElement("img");
-            iconContainer.src = service.data;
-
-            serviceContainer.appendChild(iconContainer);
             wrapper.appendChild(serviceContainer);
         })
 
