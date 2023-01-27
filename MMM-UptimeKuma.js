@@ -43,7 +43,7 @@ Module.register('MMM-UptimeKuma', {
             iconContainer.src = service.data;
 
             serviceContainer.appendChild(iconContainer);
-            wrapper.appendChild(pickupContainer);
+            wrapper.appendChild(serviceContainer);
         })
 
     return wrapper;
